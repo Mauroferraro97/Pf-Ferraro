@@ -4,33 +4,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Takeacam</title>
-    <link rel="stylesheet" href="./css/style.css"> 
-</link>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/style.css"> </link>
 </head>
-<body>
-</body>
+<body class="container">
+  
+
 
 <header class="container">   
-<nav class="menu container">
-    <label class="logo">TAKEACAM!</label>
-    <ul class="menu__items">
-        <li class="active"><a class="menu__link" href="./pages/alquileres.html">Alquileres</a></li>
-        <li class="active"><a class="menu__link" href="./pages/galeria.html">Galeria</a></li>
-        <li class="active"><a class="menu__link" href="./pages/nosotros.html">Nosotros</a></li>
-        <li class="active"> <a class="menu__link" href="./pages/servicios.html">Contacto</a> </li>
-    </ul>  
-</nav>
+<div class="nav container">
+  <input type="checkbox" id="nav-check">
+  <div class="nav-header">
+    <div class="nav-title">
+      Takeacam!
+    </div>
+  </div>
+  <div class="nav-btn">
+    <label for="nav-check">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </div>
+  
+  <div class="nav-links">
+    <a href="/pages/alquileres.html" target="_blank">Alquileres</a>
+    <a href="/pages/nosotros.html" target="_blank">Nosotros</a>
+    <a href="/pages/galeria.html" target="_blank">Galeria</a>
+    <a href="/pages/servicios.html" target="_blank">Servicios</a>
 </div>
 </header>
 
-<section class="banner container">
-    <article class="texto1">
+<section class="banner container row ">
+    <article class="texto1 col">
         <h2>Bienvenido</h2>
         <h1>Alquila la camara de tus sueños</h1>
         <p>Ofrecemos las mejores camaras digitales y analogicas del mercado para alquilar a los mejores precios del mercado, alquila la camara que siempre soñaste a un precio totalmente accesible</p>
         <a class="boton1" href="">Conoce más</a>
     </article>
-<article>   
+<article class="col text-center">   
      <img class="bannerimg" src="./img/camara1.png" alt="img">
 </article>     
 </section>
@@ -38,11 +50,11 @@
 <main class="container">
 
 
-<section class="productos1">
-<article>
-    <img class="imgproductos1" src="./img/camsony.png" alt="camara1">
+<section class="productos1 row">
+<article class=" imgproductos1 col text-center">
+    <img src="./img/camsony.png" alt="camara1">
 </article>
-<article class="textoproductos1">
+<article class="textoproductos1 col">
     <h1>Proba las mejores camaras del mercado!</h1>
     <p>Contamos con las mejores marcas del mercado (Sony, Nikon, Kodak, Olympus), disponibles para alquilar durante el tiempo que lo necesites para tu proyecto profesional. Contamos con más de 20 años de experiencia para resolver cualquier duda que tengas y puedas alquilar tu cámara con confianza.</p>
     <a class="boton2" href="">Ver más</a>
@@ -50,63 +62,45 @@
 </section>
 
 
-<section class="productos2">
-<article class="textoproductos2">
+<section class="productos2 row">
+<article class="textoproductos2 col ">
     <h1>Aprende con nuestros cursos de fotografía</h1>
     <p>Realizamos cursos para distintos niveles de fotografos, desde principiantes a avanzados, animate y comenza a estudiar esta maravillosa profesión y convertite en un fotografo profesional, comprende como funciona cada parte de una camara profesional.</p>
     <a class="boton3" href="">Ver más</a>
 </article>
-<article> 
-  <img class="imgproductos2" src="./img/cam2.png" alt="">
+<article class="col"> 
+  <img class="imgproductos2 mx-auto d-block" src="./img/cam2.png" alt="">
 </article>
 </section>
 
 
-<section class="marcas">
+<section id="marcas">
     <article class="textomarcas">
              <h2>Marcas</h2>
              <h1>Nuestros Sponsors</h1>
              <p>Conocé las marcas que nos patrocinan</p>
     </article> 
-    <article class="imgmarcas">
+    <article class="imgmarcas row align-items-center">
+      <div class="col">
         <img class="imgmarcas1" src="./img/canon.png" alt="">
+      </div>
+      <div class="col">
         <img class="imgmarcas2" src="./img/nikon.png" alt="">
+      </div>
+      <div class="col">
         <img class="imgmarcas3" src="./img/sony.png" alt="">
+      </div>
 </article>
 </section>
 
 
 </main>
-
-<footer class="site-footer container">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-md-6">
-          <h6>Disclaimer</h6>
-          <p class="text-justify">La información proporcionada por Takeacam  en Takeacam.com.ar (el "Sitio") es solo para fines informativos generales. Toda la información en el Sitio se proporciona de buena fe, sin embargo, no hacemos ninguna representación ni garantía de ningún tipo, expresa o implícita, con respecto a la precisión, adecuación, validez, confiabilidad, disponibilidad o integridad de cualquier información en el Sitio.
-        </div>
-
-        
-
-        <div class="col-xs-6 col-md-3">
-          <h6>Links</h6>
-          <ul class="footer-links">
-            <li><a href="">Sobre Nosotros</a></li>
-            <li><a href="">Contacto</a></li>
-            <li><a href="">Galeria</a></li>
-            <li><a href="">Servicios</a></li>
-            
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-sm-6 col-xs-12">
-          <p class="copyright-text">Copyright &copy; 2022 Todos los derechos reservados por Mauro Ferraro
-          </p>
-        </div>
-
-        
-        
+<footer class="footer bg-dark text-center">
+  <div class="container">
+      <span class="text-muted"><a href=>© Mauro Ferraro</a></span>
+  </div>
 </footer>
+
+<script src="/js/bootstrap.bundle.js"></script>
+</body>
+</html>
