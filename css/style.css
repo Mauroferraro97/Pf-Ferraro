@@ -600,9 +600,8 @@ margin-left: 50px;
 
 
  /* BOOTSTRAP DESREBOOT*/
-.col {
-  flex:;
-}
+
+
  body {
   margin: 0;
   font-family: (--bs-body-font-family);
@@ -634,7 +633,7 @@ margin-left: 50px;
      flex-wrap: wrap; 
      margin-top: (-1 * var(--bs-gutter-y)); 
      margin-right: (-0.5 * var(--bs-gutter-x)); 
-     margin-left: (--bs-gutter-x)); 
+     margin-left: (--bs-gutter-x)Z; 
 }
 
 body {
