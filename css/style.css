@@ -599,7 +599,64 @@ margin-left: 50px;
 
 
 
- /* BOOTSTRAP DESREBOOT*/
+/* PAGINA CONTACTO*/
+
+.contacto .textocontacto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 6em;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+
+.contacto .textocontacto h2{
+    color: #74C69D; 
+}
+
+#formulario {
+  margin-left: 2em;
+  margin-right: 2em;
+  padding-bottom: 5em;
+  padding-top: 5em;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.5em;
+
+}
+
+#formulario .btn {
+
+  margin-top: 2em;
+
+}
+
+#formulario .form-control {
+  margin-top: 0.3em;
+  margin-bottom: 1em;
+}
+
+
+
+
+/* Pagina nosotros*/
+
+#nuestrahistoria {
+  margin-top: 4em;
+  margin-left: 1em;
+  margin-right: 1em;
+   
+}
+
+#nuestrahistoria .img-fluid {
+  padding-top: 5em;
+  margin-bottom: 5em;
+}
+
+
+
+/* BOOTSTRAP DESREBOOT*/
 
 
  body {
